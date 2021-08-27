@@ -1,10 +1,10 @@
 package main
 
 import (
-	"fiber-jwt-auth/database"
-	"fiber-jwt-auth/routes"
 	"github.com/gofiber/fiber/v2"
 	"github.com/gofiber/fiber/v2/middleware/cors"
+	"gofiber-jwt-auth/database"
+	"gofiber-jwt-auth/routes"
 )
 
 func main() {
