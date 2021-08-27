@@ -1,8 +1,8 @@
 package routes
 
 import (
-	"fiber-jwt-auth/controllers"
 	"github.com/gofiber/fiber/v2"
+	"gofiber-jwt-auth/controllers"
 )
 
 func Setup(app *fiber.App)  {

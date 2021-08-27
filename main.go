@@ -4,6 +4,7 @@ import (
 	"github.com/gofiber/fiber/v2"
 	"github.com/gofiber/fiber/v2/middleware/cors"
 	"gofiber-jwt-auth/database"
+	"gofiber-jwt-auth/helper"
 	"gofiber-jwt-auth/routes"
 )
 
@@ -18,5 +19,6 @@ func main() {
 
 	routes.Setup(app)
 
-	app.Listen(":8000")
+	app.Listen(":"+helper.GoDotEnvVariable("PORT"))
+
 }
