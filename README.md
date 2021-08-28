@@ -3,7 +3,7 @@
 
 [**Fiber**](https://github.com/gofiber/fiber)  is an Express inspired web framework built on top of Fasthttp, the fastest HTTP engine for Go. Designed to ease things up for fast development with zero memory allocation and performance in mind.
 
-[**Sequelize ORM**](https://github.com/go-gorm/gorm) is the The fantastic ORM library for Golang aims to be developer friendly.
+[**GORM**](https://github.com/go-gorm/gorm) is the The fantastic ORM library for Golang aims to be developer friendly.
 
 
 ###  How to setting and run this Repository
