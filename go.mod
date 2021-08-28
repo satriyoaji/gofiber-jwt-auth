@@ -1,4 +1,4 @@
-module gofiber-jwt-auth
+module github.com/satriyoaji/gofiber-jwt-auth
 
 go 1.17
 

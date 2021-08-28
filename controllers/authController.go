@@ -3,8 +3,8 @@ package controllers
 import (
 	"github.com/gofiber/fiber/v2"
 	"github.com/golang-jwt/jwt"
-	"gofiber-jwt-auth/database"
-	"gofiber-jwt-auth/models"
+	"github.com/satriyoaji/gofiber-jwt-auth/database"
+	"github.com/satriyoaji/gofiber-jwt-auth/models"
 	"golang.org/x/crypto/bcrypt"
 	"strconv"
 	"time"

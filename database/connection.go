@@ -1,8 +1,8 @@
 package database
 
 import (
-	"gofiber-jwt-auth/helper"
-	"gofiber-jwt-auth/models"
+	"github.com/satriyoaji/gofiber-jwt-auth/helper"
+	"github.com/satriyoaji/gofiber-jwt-auth/models"
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
 )
